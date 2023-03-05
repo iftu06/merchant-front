@@ -1,9 +1,9 @@
 import React from "react";
 
- const Header = () => {
+const Header = () => {
   return (
     <React.Fragment>
-       <div className="dashboard-header">
+      <div className="dashboard-header">
         <nav className="navbar navbar-expand-lg bg-white fixed-top">
           <a className="navbar-brand" href="index.html">Concept</a>
           <button
@@ -36,9 +36,9 @@ import React from "react";
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  ><i className="fas fa-fw fa-bell"></i>
+                ><i className="fas fa-fw fa-bell"></i>
                   <span className="indicator"></span
-                ></a>
+                  ></a>
                 <ul
                   className="dropdown-menu dropdown-menu-right notification-dropdown"
                 >
@@ -60,7 +60,7 @@ import React from "react";
                             </div>
                             <div className="notification-list-user-block">
                               <span className="notification-list-user-name"
-                                >Jeremy Rakestraw</span
+                              >Jeremy Rakestraw</span
                               >accepted your invitation to join the team.
                               <div className="notification-date">2 min ago</div>
                             </div>
@@ -80,7 +80,7 @@ import React from "react";
                             </div>
                             <div className="notification-list-user-block">
                               <span className="notification-list-user-name"
-                                >John Abraham </span
+                              >John Abraham </span
                               >is now following you
                               <div className="notification-date">2 days ago</div>
                             </div>
@@ -100,7 +100,7 @@ import React from "react";
                             </div>
                             <div className="notification-list-user-block">
                               <span className="notification-list-user-name"
-                                >Monaan Pechi</span
+                              >Monaan Pechi</span
                               >
                               is watching your main repository
                               <div className="notification-date">2 min ago</div>
@@ -121,7 +121,7 @@ import React from "react";
                             </div>
                             <div className="notification-list-user-block">
                               <span className="notification-list-user-name"
-                                >Jessica Caruso</span
+                              >Jessica Caruso</span
                               >accepted your invitation to join the team.
                               <div className="notification-date">2 min ago</div>
                             </div>
@@ -156,19 +156,19 @@ import React from "react";
                     <div className="row">
                       <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                         <a href="#" className="connection-item"
-                          ><img src="images/github.png" alt="" />
+                        ><img src="images/github.png" alt="" />
                           <span>Github</span></a
                         >
                       </div>
                       <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                         <a href="#" className="connection-item"
-                          ><img src="images/dribbble.png" alt="" />
+                        ><img src="images/dribbble.png" alt="" />
                           <span>Dribbble</span></a
                         >
                       </div>
                       <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                         <a href="#" className="connection-item"
-                          ><img src="images/dropbox.png" alt="" />
+                        ><img src="images/dropbox.png" alt="" />
                           <span>Dropbox</span></a
                         >
                       </div>
@@ -176,20 +176,20 @@ import React from "react";
                     <div className="row">
                       <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                         <a href="#" className="connection-item"
-                          ><img src="images/bitbucket.png" alt="" />
+                        ><img src="images/bitbucket.png" alt="" />
                           <span>Bitbucket</span></a
                         >
                       </div>
                       <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                         <a href="#" className="connection-item"
-                          ><img src="images/mail_chimp.png" alt="" /><span
-                            >Mail chimp</span
+                        ><img src="images/mail_chimp.png" alt="" /><span
+                        >Mail chimp</span
                           ></a
                         >
                       </div>
                       <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                         <a href="#" className="connection-item"
-                          ><img src="images/slack.png" alt="" />
+                        ><img src="images/slack.png" alt="" />
                           <span>Slack</span></a
                         >
                       </div>
@@ -208,11 +208,11 @@ import React from "react";
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  ><img
+                ><img
                     src="images/avatar-1.jpg"
                     alt=""
                     className="user-avatar-md rounded-circle"
-                /></a>
+                  /></a>
                 <div
                   className="dropdown-menu dropdown-menu-right nav-user-dropdown"
                   aria-labelledby="navbarDropdownMenuLink2"
@@ -223,13 +223,13 @@ import React from "react";
                     ><span className="ml-2">Available</span>
                   </div>
                   <a className="dropdown-item" href="#"
-                    ><i className="fas fa-user mr-2"></i>Account</a
+                  ><i className="fas fa-user mr-2"></i>Account</a
                   >
                   <a className="dropdown-item" href="#"
-                    ><i className="fas fa-cog mr-2"></i>Setting</a
+                  ><i className="fas fa-cog mr-2"></i>Setting</a
                   >
                   <a className="dropdown-item" href="#"
-                    ><i className="fas fa-power-off mr-2"></i>Logout</a
+                  ><i className="fas fa-power-off mr-2"></i>Logout</a
                   >
                 </div>
               </li>
