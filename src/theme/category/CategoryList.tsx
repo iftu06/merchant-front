@@ -4,10 +4,7 @@ const CategoryList = () => {
   return (
     <React.Fragment>
       <div className="row">
-        {/* <!-- ============================================================== -->
-                <!-- recent orders  -->
-                <!-- ============================================================== --> */}
-
+       
         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
           <div className="card">
             <h5 className="card-header">

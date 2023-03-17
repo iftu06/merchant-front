@@ -9,6 +9,8 @@ import ProductList from "./theme/products/ProductList";
 import CategoryList from "./theme/category/CategoryList";
 import AddProduct from "./theme/products/AddProduct";
 import AddCategory from "./theme/category/AddCategory";
+// import { Redirect, Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (
@@ -40,10 +42,6 @@ function App() {
               </Route>
             </Switch>
 
-            {/* <Routes>
-              <Route path="/" element={<DashboardPanel />} />
-              <Route path="/user-list" element={<UserList />} />
-            </Routes> */}
 
           </div>
           <Footer />
